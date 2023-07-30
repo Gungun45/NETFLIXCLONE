@@ -1,0 +1,376 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+body::before{
+    content: " ";
+        background:url('netflix.bacground.png') no-repeat center center/cover;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height:100vh;
+        width:100vw;
+        opacity: 0.3;
+        z-index: -1;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.form{
+    display: flex;
+    overflow: hidden;
+    text-decoration: none;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+input{   
+    padding:15px;
+    width: 300px; 
+    border: 0;
+    
+}
+.btn{
+    padding:15px;
+    width: 100px;
+    overflow: hidden;
+    background-color: red;
+    border: 0;
+    color: azure;
+    cursor: pointer;
+    margin-top: 40px;
+    
+}
+.container{
+    display: block;
+    color: white;
+    margin-left: 25%;
+    padding: 0px;
+}
+.main{
+    margin-top: 10%;
+    text-align: center;
+}
+#heading1{
+    font-size:55px;
+    line-height: 45px;
+    font-weight: 500;
+    max-width: 600px;
+}
+#heading2{
+    margin-right:250px;
+    font-weight: 20px;
+  font-size: 1.5rem;
+  line-height: 0px;
+}
+#heading3{
+    margin-right:250px;
+    font-size: 1rem;
+    line-height: 50px;
+}
+.logo{
+    height: 50px;
+    width: 200px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+#lang{
+    width: 90px;
+   padding:5px;
+   background-color:transparent;
+   border-radius: 4px;
+   border: 0;
+   font-size: 1rem;
+   color: aliceblue;
+   cursor: pointer;
+}
+#sign{
+    width: 90px;
+   padding:5px;
+   background-color: red;
+   color: azure;
+   border-radius: 4px;
+   border: 0;
+   font-size: 1rem;
+   cursor: pointer;
+}
+option{
+    color: black;
+    cursor: pointer;
+}
+.home{
+color: aliceblue;
+margin-top:200px;
+display:flex ;
+margin-left: 180px;
+padding: 20px;
+}
+.enjoypage img{
+    height: 200px;
+    width: 300px;
+}
+.enjoypage{
+    padding: 10px;
+    margin-right: 89px;
+}
+.mobile{
+    color: aliceblue;
+    display: flex;
+    
+}
+.mobile img {
+ width: 400px;
+ height: 300px;
+}
+.download{
+    margin-top: 90px;
+}
+.watch{
+    color: aliceblue;
+    display: flex;
+    margin-left:120px;
+}
+
+.everywhere{
+    margin-top: 90px;
+}
+.watch img{
+    width: 400px;
+    height: 300px;
+}
+.kids{
+    color: white;
+    display: flex;
+    margin-left: 90px;
+}
+.kids img{
+    width: 200px;
+    height: 300px;
+}
+.kidsprofile{
+    margin-top: 90px;
+    margin-left: 70px;
+}
+.question{
+    color: aliceblue;
+}
+.question h1{
+    font-size:34px ;
+    text-align: center;
+}
+.faq{
+margin: 60px auto;
+width: 100%;
+max-width: 700px;
+}
+.faq li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 19px;
+}
+.faq label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    background: rgb(73, 70, 70);
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 33px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.6s;
+}
+input[type="radio"]{
+    display: none;
+}
+.container1{
+    margin-left: 70px;
+    padding: 9px;
+    text-align: left;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s,padding 0.5s;
+}
+.question input[type="radio"]:checked+label+.container1{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.question input[type="radio"]:checked+label::after{
+    transform: rotate(137deg);
+}
+small{
+    align-items: center;
+    font-size: 18px;
+    margin-left: 300px;
+    margin-top: 600px;
+}
+input[type="text"]{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.footer
+{
+    color: aliceblue;
+    padding: 40px 160px ;
+    border-top: 2px solid black;
+}
+.footer .c{
+    display: flex;
+    flex-direction: column;
+ flex-basis: 30%;
+ flex-grow: 1;
+ margin-bottom: 20px;
+ font-size: 20px;
+ padding: 23px;
+ color: aliceblue;
+ 
+}
+.footer.r{
+    font-size: 90px;
+    color: aliceblue;
+}
+a{
+display: block;
+text-decoration: none;
+font-size: 14px;
+margin-bottom: 12px;
+color: aliceblue;
+}
+#lang1{
+    width: 100px;
+   padding:9px;
+   background-color:transparent;
+   border-radius: 4px;
+   border: 0;
+   font-size: 1rem;
+   color: aliceblue;
+   cursor: pointer;
+   margin-left: 34px;
+   border: 1px solid white;
+}
+p{
+    color:rgb(70, 64, 64);
+    margin-bottom: 12px;
+    margin-left: 39px;
+    margin-bottom: 23px;
+    cursor: pointer;
+}
+.copyright{
+    margin-top: 10px;
+}
+@media only screen and (max-width:800px) {
+    
+    body{
+        height: 80vh;
+        width: 80vw;
+        background-color:black;
+    }
+    body::before{
+        content: " ";
+            background:url('netflix.bacground.png') no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height:100vh;
+            width:100vw;
+            opacity: 0.3;
+            z-index: -1;
+    }
+    .logo{
+        height: 50px;
+        width: 100px;
+    }
+    #heading1{
+        font-size:25px;
+        line-height: 25px;
+        font-weight: 250;
+        max-width: 300px;
+    }
+    #heading2{
+        margin-right:20px;
+        font-weight: 20px;
+      font-size: 0.9rem;
+      line-height: 0px;
+    }
+    #heading3{
+        margin-right:20px;
+        font-size: 0.7rem;
+        line-height: 20px;
+    }
+    #sign{
+        width: 90px;
+       padding:4px;
+       background-color: red;
+       color: azure;
+       border-radius: 4px;
+       border: 0;
+       font-size: 0.9rem;
+       cursor: pointer;
+    }
+    .btn{
+        padding:4px;
+        height: 40px;
+        width: 100px;
+        overflow: hidden;
+        background-color: red;
+        border: 0;
+        color: azure;
+        cursor: pointer;
+        margin-top: 40px;
+        
+    }
+    input{   
+        padding:12px;
+        width: 200px; 
+        border: 0;
+        
+    }
+    .form{
+        display: flex;
+        overflow: hidden;
+        text-decoration: none;
+        align-items: center;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .home{
+        color: aliceblue;
+        margin-top:700px;
+        display:flex ;
+        padding: 5px;
+        }
+        
+        small{
+            align-items: center;
+            font-size: 10px;
+            margin-left: 100px;
+            margin-top: 300px;
+        }
+    .form2{
+        display: flex;
+    } 
+    .container{
+        margin-left: 70px;
+    }
+    .enjoypage img{
+        height: 60px;
+        width: 150px;
+    }
+    .enjoypage{
+        padding: 10px;
+        margin-right:675px;}
+
+        
+}
